@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomeço - Apoio e Cidadania</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #f4f6f9; color: #333; padding: 15px; max-width: 600px; margin: 0 auto; }
+    
+    header { text-align: center; padding: 20px 0; background: #1a365d; color: white; border-radius: 12px; margin-bottom: 20px; }
+    header h1 { font-size: 1.6rem; }
+    header p { font-size: 0.9rem; opacity: 0.9; margin-top: 5px; }
+
+    .card-emergency { background: #fff5f5; border: 2px solid #e53e3e; border-radius: 12px; padding: 15px; margin-bottom: 20px; text-align: center; }
+    .card-emergency h2 { color: #c53030; font-size: 1.2rem; margin-bottom: 8px; }
+    .btn-emergency { display: block; background: #e53e3e; color: white; text-decoration: none; font-weight: bold; padding: 12px; border-radius: 8px; margin-top: 10px; font-size: 1.1rem; }
+
+    .section-title { font-size: 1.1rem; color: #2b6cb0; margin: 20px 0 10px 0; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+
+    .btn-link { display: flex; align-items: center; justify-content: space-between; background: white; border: 1px solid #e2e8f0; padding: 16px; border-radius: 10px; text-decoration: none; color: #2d3748; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: transform 0.1s; }
+    .btn-link:active { transform: scale(0.98); background: #edf2f7; }
+    .btn-link span { display: flex; align-items: center; gap: 10px; }
+    .icon { font-size: 1.3rem; }
+    .arrow { color: #a0aec0; font-weight: bold; }
+    
+    footer { text-align: center; margin-top: 30px; padding: 15px; color: #718096; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Projeto Recomeço</h1>
+    <p>Apoio, cidadania e oportunidades para todos</p>
+  </header>
+
+  <!-- BLOCO DE EMERGÊNCIA (SAÚDE MENTAL) -->
+  <div class="card-emergency">
+    <h2>Precisa de ajuda agora?</h2>
+    <p>Apoio emocional gratuito e confidencial (24h).</p>
+    <a href="tel:188" class="btn-emergency">📞 Ligar 188 (CVV - Prev. ao Suicídio)</a>
+  </div>
+
+  <!-- CERTIDÕES E DOCUMENTOS -->
+  <div class="section-title">📄 Documentos e Certidões</div>
+  <div class="grid">
+    <a href="https://www.gov.br/pf/pt-br/assuntos/antecedentes-criminais" target="_blank" class="btn-link">
+      <span><span class="icon">📜</span> Certidão de Antecedentes (Polícia Federal)</span>
+      <span class="arrow">→</span>
+    </a>
+    <a href="https://www.tse.jus.br/servicos-eleitorais/certidoes/certidao-de-quitacao-eleitoral" target="_blank" class="btn-link">
+      <span><span class="icon">🗳️</span> Quitção Eleitoral (TSE)</span>
+      <span class="arrow">→</span>
+    </a>
+    <a href="https://www.gov.br/pt-br/servicos/registra-boletim-de-ocorrencia" target="_blank" class="btn-link">
+      <span><span class="icon">🛡️</span> Registro de Boletim de Ocorrência</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <!-- TRABALHO E REINSERÇÃO -->
+  <div class="section-title">💼 Trabalho e Oportunidades</div>
+  <div class="grid">
+    <a href="https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/sine-facil" target="_blank" class="btn-link">
+      <span><span class="icon">🔍</span> Buscar Vagas no SINE Fácil</span>
+      <span class="arrow">→</span>
+    </a>
+    <a href="https://www.gov.br/mda/pt-br/assuntos/capacitacao" target="_blank" class="btn-link">
+      <span><span class="icon">🎓</span> Cursos Gratuitos de Capacitação</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <!-- APOIO SOCIAL E JURÍDICO -->
+  <div class="section-title">🤝 Acolhimento e Direitos</div>
+  <div class="grid">
+    <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/assistencia-social/unidades-atendimento/cras" target="_blank" class="btn-link">
+      <span><span class="icon">🏠</span> Localizar CRAS / CREAS (Assistência Social)</span>
+      <span class="arrow">→</span>
+    </a>
+    <a href="https://www.defensoria.mg.def.br/" target="_blank" class="btn-link">
+      <span><span class="icon">⚖️</span> Encontrar Defensoria Pública</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <footer>
+    <p>Aplicativo comunitário e gratuito. Não recolhemos dados pessoais.</p>
+  </footer>
+
+</body>
+</html>
